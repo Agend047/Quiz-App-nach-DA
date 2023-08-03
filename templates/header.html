@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js">
+
+    </script>
+</head>
+
+<body>
+
+    <!--
+    <div class="OpenDiv">
+        <button class="Open_Header" onclick="toggleHeader()">O</button>
+    </div>
+-->
+
+    <div id="hamburger" onclick="toggleHeader()">
+        <div id="bar1" class="Bar"></div>
+        <div id="bar2" class="Bar"></div>
+        <div id="bar3" class="Bar"></div>
+    </div>
+
+    <section class="HeaderClass transform ShowNothing">
+        <div class="CloseDiv">
+            <button class="Close_header" onclick="toggleHeader()">X</button>
+        </div>
+
+        <a href="./index.html">
+            <img class="Header_Image" src="img/Group 8.png" alt="Quiz App" href="#">
+        </a>
+        <div id="HTML_div" class="Side_link_div">
+            <div class="Hover_bar"></div><a class="Side_link" href="./quizPage.html" onclick="initQuiz(0)">HTML</a>
+        </div>
+        <div id="CSS_div" class="Side_link_div">
+            <div class="Hover_bar"></div><a class="Side_link" href="./quizPage.html" onclick="initQuiz(1)">CSS</a>
+        </div>
+        <div id="JS_div" class="Side_link_div">
+            <div class="Hover_bar"></div> <a class="Side_link" href="./quizPage.html" onclick="initQuiz(2)">JS</a>
+        </div>
+        <div id="Java_div" class="Side_link_div">
+            <div class="Hover_bar"></div> <a class="Side_link" href="./quizPage.html" onclick="initQuiz(3)">Java</a>
+        </div>
+
+
+    </section>
+
+</body>
+
+</html>

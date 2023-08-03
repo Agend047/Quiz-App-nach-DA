@@ -1,0 +1,411 @@
+body {
+    min-height: 100%;
+    font-family: 'Rubik', sans-serif !important;
+    background-color: whitesmoke;
+    margin-left: 23vw;
+}
+
+.IndexSide {
+    background-image: url('img/bg\ b.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+
+.IndexHeadline h2 {
+    text-align: center;
+}
+
+
+.HeaderClass {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: blue;
+    color: white;
+    height: 100vh;
+    width: 23vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: all 2s;
+}
+
+
+.OpenDiv {
+    display: none;
+    justify-content: center;
+    width: 50%;
+
+}
+
+.Open_Header {
+    width: 40px;
+    height: 40px;
+    background-color: blue;
+    color: white;
+    border-radius: 20px;
+    border-style: none;
+    text-align: center;
+    position: fixed;
+    top: 50px;
+    left: 50px;
+}
+
+.CloseDiv {
+    display: none;
+    justify-content: right;
+    width: 100%;
+}
+
+.Close_header {
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    color: blue;
+    border-radius: 20px;
+    border-style: none;
+    text-align: center;
+    font-size: x-large;
+}
+
+
+.Side_link_div {
+    padding-bottom: 3vh;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    color: white;
+    text-decoration: none;
+    border-left-style: solid;
+    border-left-width: 8px;
+    border-color: blue;
+}
+
+.Side_link_div:hover {
+    color: white;
+    text-decoration: none;
+    border-left-style: solid;
+    border-left-width: 8px;
+    border-color: white;
+}
+
+.side_link_choosen {
+    border-color: white !important;
+}
+
+.Hover_bar {
+    height: 5vh;
+    background-color: white;
+    width: 1vw;
+    display: none;
+}
+
+.Side_link {
+    color: white;
+    font-size: 4vh;
+    width: 50%;
+}
+
+.Side_link:hover {
+    text-decoration: none;
+    color: white;
+}
+
+
+.Header_Image {
+    padding: 10vh 0 10vh 0;
+}
+
+
+.FlexClass {
+    display: flex;
+    justify-content: center;
+}
+
+.Quizcard {
+    width: 30rem;
+    margin-top: 16vh;
+}
+
+.Answer_area {
+    background-color: white;
+    margin-bottom: 4vh;
+    padding: 5px;
+
+}
+
+.Card_title {
+    text-align: center;
+    margin-bottom: 6vh;
+}
+
+.card_body {
+    flex: 1;
+    padding: 1vh 2vw 1vh 2vw;
+
+}
+
+.card-left {
+    background-color: lightgrey;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    padding: 1vh;
+    font-weight: bold;
+}
+
+.quiz_answer:hover {
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.05);
+    border-color: rgba(0, 0, 0, 0.05);
+
+}
+
+.False_answer {
+    background-color: rgb(255, 164, 164) !important
+}
+
+.False_answer_left {
+    background-color: rgb(248, 24, 24);
+    color: white;
+}
+
+.Right_answer {
+    background-color: rgb(183, 247, 153) !important;
+}
+
+.Right_answer_left {
+    background-color: rgb(76, 191, 25) !important;
+    color: white;
+}
+
+.Footer-buttons {
+    justify-content: space-between;
+}
+
+
+.SideButtons {
+    background-color: rgb(219, 223, 244);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: none;
+}
+
+.SideButtons:disabled {
+    background-color: rgb(214, 214, 214);
+}
+
+
+.Left_Arrow {
+    background-image: url(img/left-arrow.png);
+    background-repeat: no-repeat;
+    Background-position: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+}
+
+.Right_Arrow {
+    background-image: url(img/right-arrow.png);
+    background-repeat: no-repeat;
+    Background-position: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+}
+
+.Show_Result_Button {
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+}
+
+.Result_page {
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.Result_circle {
+    background-color: rgba(247, 213, 187);
+    height: 60vw;
+    width: 60vw;
+    max-height: 600px;
+    max-width: 600px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 3.5vh;
+}
+
+.Result_img {
+    width: 50%;
+    height: 30%;
+    margin-top: 16px;
+}
+
+.Complete_text {
+    font-weight: bold;
+    margin-top: 3vh;
+    flex-direction: column;
+    text-align: center;
+}
+
+.Complete_text p {
+    margin-bottom: 0;
+}
+
+.Score_bord {
+    color: blue;
+    font-weight: bold;
+    justify-content: space-around;
+    width: 80%;
+    margin-top: 3vh;
+}
+
+#scoreCounter {
+    color: black;
+}
+
+.share_Button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.share_Button button {
+    color: white;
+    background-color: rgb(255, 78, 15);
+    border-style: none;
+    border-radius: 8px;
+    width: 65%;
+    height: 8vh;
+    min-width: 150px;
+}
+
+.Replay_text {
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+
+}
+
+.Replay_text a {
+    margin-top: 5vh;
+    color: rgb(255, 78, 15);
+    text-decoration: none;
+}
+
+.Resp_Display_none {}
+
+.Result_OverDiv {
+    width: 100vw;
+    height: 100vh;
+    background-color: lightgrey;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.Show_Result_button {
+    color: white;
+    background-color: rgb(255, 78, 15);
+    border-style: none;
+    border-radius: 8px;
+    height: 40px;
+}
+
+
+
+@media (max-width: 700px) {
+
+    body {
+        margin: 10px;
+    }
+
+    .HeaderClass {
+        width: 0px;
+    }
+
+    /*
+    .Side_link_div {
+        display: none;
+    }
+    */
+
+
+    #hamburger {
+        width: 45px;
+        height: 40px;
+        margin: 30px 0 0 20px;
+        cursor: pointer;
+    }
+
+    .Bar {
+        height: 5px;
+        width: 100%;
+        margin-bottom: 3px;
+        background-color: blue;
+        display: block;
+        border-radius: 5px;
+        transition: 0.3s ease;
+    }
+
+    #bar1 {
+        transform: translateY(-4px);
+    }
+
+    #bar3 {
+        transform: translateY(4px);
+    }
+
+    .transform {
+        transition: all 1s ease;
+    }
+
+    .transform-active {
+        width: 200px;
+    }
+
+    .CloseDiv {
+        display: flex;
+    }
+
+    .OpenDiv {
+        display: block;
+    }
+
+    .Header_Image {
+        padding: 7vh 0 10vh 0;
+    }
+
+    .Resp_Display_none {
+        display: none;
+    }
+
+    .ShowNothing div {
+        display: none;
+    }
+
+    .ShowNothing img {
+        display: none;
+    }
+
+    .Result_circle {
+        height: fit-content;
+        width: fit-content;
+    }
+
+    .share_Button {
+        width: 150px;
+    }
+}
